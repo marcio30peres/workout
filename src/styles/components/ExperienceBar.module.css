@@ -1,0 +1,30 @@
+.experienceBarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 2rem;
+}
+.experienceBarContainer > span {
+    font-size: 1rem;
+    padding: 1.5rem;
+}
+.experienceBarContainer > div {
+    flex: 1;
+    height: 4px;
+    border-radius: 4px;
+    background-color: var(--gray-line);
+    position: relative;
+}
+.experienceBarContainer div div {
+    height: 4px;
+    border-radius: 4px;
+    background-color: var(--green);
+    transition: .2s;
+}
+.experienceBarContainer div span {
+    margin-top: 1rem;
+    position: absolute;
+    transform: translateX(-50%);
+    transition: .2s;
+}

@@ -1,0 +1,12 @@
+.completedChallengesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 3rem;
+
+    height: 3rem;
+    width: 100%;
+
+    border-bottom: 1px solid var(--gray-line);
+}

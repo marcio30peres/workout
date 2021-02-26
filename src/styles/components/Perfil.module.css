@@ -1,0 +1,25 @@
+.perfilContainer {
+    display: flex;
+    align-items: center;
+}
+
+.perfilContainer > img {
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.perfilContainer > div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.perfilContainer > div strong {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    color: var(--title);
+}
+
+.perfilContainer > div span img {
+    margin-right: .5rem;
+}
