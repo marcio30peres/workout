@@ -6,10 +6,10 @@ export function Perfil() {
     const { level } = useContext(ChallengesContext)
     return (
         <div className={styles.perfilContainer}>
-            <img src="https://github.com/marcio30peres.png" alt="" />
+            <img src="https://i1.wp.com/terracoeconomico.com.br/wp-content/uploads/2019/01/default-user-image.png?ssl=1" alt="" />
             <div>
                 <strong>
-                    Márcio Luís
+                    Work Out
                 </strong>
                 <span>
                     <img src="icons/level.svg" alt="" />
