@@ -34,7 +34,7 @@ export const ChallengesContext = createContext({} as ChallengesContextData)
 
 export function ChallengesProvider({ children, ...rest }: ChallengesProviderProps) {
     const [level, setLevel] = useState(rest.level ?? 1)
-    const [currentExperience, setCurrentExperience] = useState(rest.currentExperience ?? 0)
+    const [currentExperience, setCurrentExperience] = useState(rest.currentExperience ?? 1)
     const [completedChallenges, setCompletedChallenges] = useState(rest.completedChallenges ?? 0)
     const [activeChallenge, setActiveChallenge] = useState(null)
     const [isLevelUpModalOpen, setIsLevelUpModalOpen] = useState(false)
