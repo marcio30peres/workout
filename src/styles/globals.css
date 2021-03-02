@@ -18,7 +18,7 @@
   --blue-twitter: #2aa9e0;
 }
 
-@media screen and (max-width: 100px) {
+@media screen and (max-width: 800px) {
   .container > section {
     display: flex;
     flex-direction: column;
