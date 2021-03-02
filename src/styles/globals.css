@@ -18,6 +18,12 @@
   --blue-twitter: #2aa9e0;
 }
 
+@media screen and (max-width: 100px) {
+  .container > section {
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
 body {
   background-color: var(--background);
   color: var(--text);
