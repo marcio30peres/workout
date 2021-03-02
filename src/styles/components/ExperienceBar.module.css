@@ -22,9 +22,3 @@
     background-color: var(--green);
     transition: .2s;
 }
-.experienceBarContainer div span {
-    margin-top: 1rem;
-    position: absolute;
-    transform: translateX(-50%);
-    transition: .2s;
-}
