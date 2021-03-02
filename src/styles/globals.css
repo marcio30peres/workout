@@ -20,7 +20,12 @@
 
 @media screen and (max-width: 100px) {
   .container > section {
-    grid-template-rows: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container > section > div {
+    flex: 1;
   }
 }
 
